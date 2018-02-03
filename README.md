@@ -16,9 +16,12 @@ That scheme was gotten from game "Dota 2". First you search rough path to destin
 Unlike many other implementations of A* and JPS, that can find closest path to some unreachable location. JPS uses improved algorithm that doesn't cut edges and was published in 2012 (http://harabor.net/data/papers/harabor-grastien-socs12.pdf). JPS+ cache distances to jump points.
 
 Search time to unreachable locations with grid size 256x256 and low number of walls:
-A*     ~26 ms
-JSP    ~7.5 ms
-JPS+   ~0.5 ms
+
+Name | Time
+-----|-----
+A* | ~26 ms
+JSP | ~7.5 ms
+JPS+ | ~0.5 ms
 
 ## Wall Tracing
 
