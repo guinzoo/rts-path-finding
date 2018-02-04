@@ -1,9 +1,9 @@
-# rpg-path-finding
-C++ implementation of path finding algorithms for RPG-games with grid map.
+# rts-path-finding
+C++ implementation of path finding algorithms for RTS-games with grid map.
 
 ## How to use
 
-This code is used in my RPG-like game with custom in-house engine. I copied it as is, without implementation of many classes, like vec2, Array, MemoryManager etc. So if somebody wants to use it, he needs to replace them.
+This code is used in my RTS-like game with custom in-house engine. I copied it as is, without implementation of many classes, like vec2, Array, MemoryManager etc. So if somebody wants to use it, he needs to replace them.
 
 Algorithms work on grid map with maximum side size 2^16. If cell is not walkable there is a wall. Also there is a possibility to add round obstacles with arbitrary radius. Borders of the input map must be unwalkable because of there is no check if coordinates are out of borders for optimization reasons.
 
