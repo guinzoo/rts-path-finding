@@ -27,4 +27,4 @@ JPS+ | ~0.5 ms
 
 The most hard part is "Wall Tracing" algorithm. I was impressed with "Dota 2" path finding system and started to search how to realize it. But everything I found was only 1 mention [here](http://liquipedia.net/dota2/Pathfinding) without any explanation. So I started to invent it myself.
 
-This implementation doesn't use trigonometric functions and works very fast for short distances (< 0.2 ms). But found paths are not perfect.
+This implementation doesn't use trigonometric functions and works very fast for short distances (< 0.2 ms). Found paths are not guaranteed to be shortest, but in most cases looks good.
