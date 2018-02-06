@@ -538,7 +538,7 @@ void WallTracing::pushNextObstacle(Next* n) {
         
         Next col = findCollision(n->pos, to, true);
         if (col.type == 1) {
-            U32 ch = dir == 1 ? col.corner->checked : col.corner->right->checked;
+            U32 ch = n->dir == 1 ? col.corner->checked : col.corner->right->checked;
             if (ch == m_curCheck)
                 return;
             
